@@ -1,0 +1,23 @@
+{
+  "repository": "openai/codex",
+  "revision": "d685e61e1f63b0222cc51017b175d20c14ecd02d",
+  "paths": [
+    "codex-rs/tui/src/render/highlight.rs",
+    "codex-rs/tui/src/theme_picker.rs"
+  ],
+  "checked": "2026-10-21",
+  "contract": "plist",
+  "scopes": {
+    "comment": "comment",
+    "keyword": "keyword",
+    "keyword.operator": "operator",
+    "string": "string",
+    "constant.numeric": "number",
+    "constant.language": "constant",
+    "variable": "variable",
+    "entity.name.function": "function",
+    "entity.name.type": "type",
+    "variable.parameter": "parameter",
+    "markup.heading": "heading"
+  }
+}

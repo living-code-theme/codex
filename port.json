@@ -1,0 +1,28 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Codex",
+  "slug": "codex",
+  "group": "AI & Agents",
+  "emoji": "🤖",
+  "description": "Living Code for the Codex CLI: native TextMate syntax themes with coordinated Markdown, selections and added/removed diff backgrounds.",
+  "homepage": "https://github.com/openai/codex",
+  "quick": "Install the native theme files",
+  "aliases": [
+    "openai",
+    "codex cli"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "themes/living-code-night.tmTheme",
+    "themes/living-code-frost.tmTheme",
+    "themes/living-code-paper.tmTheme",
+    "themes/living-code-signal.tmTheme"
+  ],
+  "images": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "living-code-codex",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Living Code for the Codex CLI: native TextMate syntax themes with coordinated Markdown, selections and added/removed diff backgrounds.",
+  "license": "MIT",
+  "author": "Living Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/living-code-theme/codex.git"
+  },
+  "homepage": "https://living-code.dev/ports/codex/",
+  "packageManager": "pnpm@12.9.0",
+  "engines": {
+    "node": ">=22.22"
+  },
+  "livingCode": {
+    "kind": "files"
+  },
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs && node --test test/*.test.mjs",
+    "check:generated": "node scripts/generate.mjs --check",
+    "palette:update": "node scripts/update-palette.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "plist": "3.1.0"
+  }
+}
