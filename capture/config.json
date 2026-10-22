@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "scene": "Codex native theme picker and its built-in syntax/diff preview. No model request.",
+  "versionCommand": [
+    "codex",
+    "--version"
+  ],
+  "fixtures": []
+}
