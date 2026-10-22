@@ -5,10 +5,10 @@
     "capture/app.py": "3f4c31446634e1fbbbefcc819153fda8112953c2a6d2fcd0c8f66cce1d61bcab",
     "capture/config.json": "3425e363230f923076f51ad40ae81b816995b0eec632c05cc0fdeb7e393d53e6",
     "capture/flake.lock": "e3750f7ba25d0b1971722cdd83b2f07e32528980a4d6a9a1ea55177747de5752",
-    "capture/flake.nix": "734855e5c53492d42917f361026d173ec13fb2a67206bdf68376abbca478aa6f",
+    "capture/flake.nix": "5a6c668331d240c31ff640f92a6c1781db3b3bc83dcc2b1fff7b49cb17112b56",
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "ab9212d049fc0ebec7d432e18d4cde446b53fd107713bdda95aa72874a9abd1d",
-    "scripts/capture.py": "6830da447e48a4ab5511012b5222763677214e8a98683b94c60248765202ca9f",
+    "scripts/capture.py": "dcb8dc5d8a6ecbf2eb998eab90d678c745c9de6e9d35ded82edc0a949cb7e4e8",
     "themes/living-code-frost.tmTheme": "b0fdf04f6251f99dfbed12c333f95fca07538017701e4f9f78ef66718c422c89",
     "themes/living-code-night.tmTheme": "d8f7b46ce0e22354c6a9c8a5ab173ff9d94c444d9689c180d9ddbb81ee061696",
     "themes/living-code-paper.tmTheme": "a0e08ac2dcac1b8ad84be1872caf1632067828f3129a1752fe6bf8a4cecdd94d",
@@ -17,7 +17,7 @@
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "081d04401c8e868e100dfd4273d50b28b8e6fe3d82b88de7439e1515b30bfa23",
+      "sha256": "6e53437a9f541239f20b352b179a9621da8e4f21d5ba01515ba65ee5340b4779",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#05080b",
@@ -33,7 +33,7 @@
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "c1c3141866831a04363ec0a510ba70f974c39a28c87f7662c08379518b14c729",
+      "sha256": "e6055f0b78cc5224b2ffc5acbe9fc0f141cda7d37d065ac940880c311e6c1968",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#0a1016",
@@ -49,7 +49,7 @@
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "0ddddd36bfdb0c4d7ad97492e5780f1d2fefd907facdde41b06ff503b5ca246b",
+      "sha256": "e9567b9dd0898dc4be722cedc8f101b8fffc3ab89ea1e7f0298482388051908c",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#0f695e",
@@ -66,7 +66,7 @@
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "a3dad5eeb3d8fdf78766d1e838d027f761ce4580e6d886cb2c94c6687504d1da",
+      "sha256": "46f9ff1296b4af4d493276d36e5bf9692cbf21d7320736d8c64f7c515e06d42f",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#00a692",
