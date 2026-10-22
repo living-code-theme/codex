@@ -8,7 +8,7 @@
     "capture/flake.nix": "5a6c668331d240c31ff640f92a6c1781db3b3bc83dcc2b1fff7b49cb17112b56",
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "ab9212d049fc0ebec7d432e18d4cde446b53fd107713bdda95aa72874a9abd1d",
-    "scripts/capture.py": "dcb8dc5d8a6ecbf2eb998eab90d678c745c9de6e9d35ded82edc0a949cb7e4e8",
+    "scripts/capture.py": "1fefb763f00567b795b92388b29e3e8c3fd58bd0eefa9c2f31e43663cad7a308",
     "themes/living-code-frost.tmTheme": "b0fdf04f6251f99dfbed12c333f95fca07538017701e4f9f78ef66718c422c89",
     "themes/living-code-night.tmTheme": "d8f7b46ce0e22354c6a9c8a5ab173ff9d94c444d9689c180d9ddbb81ee061696",
     "themes/living-code-paper.tmTheme": "a0e08ac2dcac1b8ad84be1872caf1632067828f3129a1752fe6bf8a4cecdd94d",
@@ -17,7 +17,7 @@
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "6e53437a9f541239f20b352b179a9621da8e4f21d5ba01515ba65ee5340b4779",
+      "sha256": "081d04401c8e868e100dfd4273d50b28b8e6fe3d82b88de7439e1515b30bfa23",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#05080b",
@@ -33,7 +33,7 @@
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "e6055f0b78cc5224b2ffc5acbe9fc0f141cda7d37d065ac940880c311e6c1968",
+      "sha256": "c1c3141866831a04363ec0a510ba70f974c39a28c87f7662c08379518b14c729",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#0a1016",
@@ -49,7 +49,7 @@
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "e9567b9dd0898dc4be722cedc8f101b8fffc3ab89ea1e7f0298482388051908c",
+      "sha256": "0ddddd36bfdb0c4d7ad97492e5780f1d2fefd907facdde41b06ff503b5ca246b",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#0f695e",
@@ -66,7 +66,7 @@
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "46f9ff1296b4af4d493276d36e5bf9692cbf21d7320736d8c64f7c515e06d42f",
+      "sha256": "a3dad5eeb3d8fdf78766d1e838d027f761ce4580e6d886cb2c94c6687504d1da",
       "application": "codex-cli 0.162.1",
       "paletteColors": [
         "#00a692",
