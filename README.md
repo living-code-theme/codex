@@ -107,11 +107,13 @@ codex -c 'tui.theme="living-code-signal"'
 
 To persist a choice manually, merge `theme = "living-code-night"` into the existing `[tui]` table of `${CODEX_HOME:-~/.codex}/config.toml`. The setting uses the filename stem, not the display name or `.tmTheme` extension. Each theme specifies both `markup.inserted` and `markup.deleted` backgrounds so Codex does not fall back to unrelated diff tints.
 
+Syntax scopes follow the [Living Code Neovim](https://github.com/living-code-theme/nvim/blob/main/lua/living-code/highlights.lua) role mappings in every flavor, including distinct operators, punctuation, parameters, properties and literal constants. Tests compare the shipped TextMate scopes to a pinned Neovim reference. Syntect’s grammar still determines which tokens it can recognize.
+
 ## Compatibility
 
 For Codex CLI versions with custom `.tmTheme` loading and the `/theme` picker. The theme is for the terminal CLI, not the Codex desktop app or VS Code extension. Codex deliberately preserves the host terminal background for ordinary code spans; pair the port with a matching Living Code terminal theme. Theme parsing and syntax scopes are tested; this does not assert that every Codex UI element is themeable.
 
-Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn.
+Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn. The conversation is a labeled, repository-owned local demo, not a private session or a live model response. Recapturing needs no account, subscription or paid API call.
 
 ## Contributing
 

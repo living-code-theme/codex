@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "scene": "Codex native theme picker and its built-in syntax/diff preview. No model request.",
+  "scene": "Codex native conversation and syntax highlighting, resuming a labeled local code-review rollout. No model request or user credentials.",
   "versionCommand": [
     "codex",
     "--version"
   ],
-  "fixtures": []
+  "fixtures": ["capture/review.md"]
 }
